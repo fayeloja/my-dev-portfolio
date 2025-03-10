@@ -17,7 +17,7 @@ function NavBar({ title }) {
         {/* Logo */}
         <div className="flex items-center flex-shrink-0">
           <img className="h-10 w-10 mr-5" src={logo} alt="logo" />
-          <h3 className="text-lg lg:text-2xl">{title}</h3>
+          <h2>{title}</h2>
         </div>
 
         <div className="md:hidden">

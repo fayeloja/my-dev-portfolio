@@ -32,23 +32,24 @@ function Footer() {
           <p className="sm:w-80">
             Let`s create something people actually need!{" "}
             <span className="text-white hover:text-gray-600">
-              <a href="mailto:hello@fayeloja.dev">hello@fayeloja.dev</a>
+              <a href="mailto:fayeloja@gmail.com">fayeloja@gmail.com</a>
             </span>
           </p>
+          <p className="text-white mt-2 font-extrabold">+234-806-977-5830</p>
         </div>
         <div>
           <ul className="">
             <li>
-              <a href="#">Github</a>
+              <a href="https://github.com/fayeloja">Github</a>
             </li>
             <li>
-              <a href="#">Linkedin</a>
+              <a href="https://www.linkedin.com/in/fayeloja/">Linkedin</a>
             </li>
             <li>
-              <a href="#">Dribbble</a>
+              <a href="https://dribbble.com/fayeloja">Dribbble</a>
             </li>
             <li>
-              <a href="#">Instagram</a>
+              <a href="https://www.instagram.com/fayeloja.design">Instagram</a>
             </li>
           </ul>
         </div>

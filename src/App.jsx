@@ -9,7 +9,7 @@ import "./index.css";
 function App() {
   return (
     <>
-      <Navbar title="DEV ABIOLA + DEVOPS ENGINEER" />
+      <Navbar title="FATAI AYELOJA" />
       <Hero />
       <AboutMe />
       <Projects />

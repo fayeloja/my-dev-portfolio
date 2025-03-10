@@ -20,22 +20,25 @@ function Hero() {
 
       <div className="flex justify-center mt-8 gap-4">
         <div className="border-2 border-white p-2 rounded-lg hover:text-orange-600 transition duration-300">
-          <a href="#" aria-label="GitHub">
+          <a href="https://github.com/fayeloja" aria-label="GitHub">
             <Github />
           </a>
         </div>
         <div className="border-2 border-white p-2 rounded-lg hover:text-orange-600 transition duration-300">
-          <a href="#" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/fayeloja/" aria-label="LinkedIn">
             <Linkedin />
           </a>
         </div>
         <div className="border-2 border-white p-2 rounded-lg hover:text-orange-600 transition duration-300">
-          <a href="#" aria-label="Instagram">
+          <a
+            href="https://www.instagram.com/fayeloja.design"
+            aria-label="Instagram"
+          >
             <Instagram />
           </a>
         </div>
         <div className="border-2 border-white p-2 rounded-lg hover:text-orange-600 transition duration-300">
-          <a href="#" aria-label="Twitter">
+          <a href="https://x.com/fayeloja" aria-label="Twitter">
             <Twitter />
           </a>
         </div>
