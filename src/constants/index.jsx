@@ -3,6 +3,9 @@ import saasimg from "../assets/images/saas-site.png";
 import ajrenaimg from "../assets/images/ajrena-site.png";
 import nutzyimg from "../assets/images/nutzy-site.png";
 
+import ajrenalogo from "../assets/images/companylogo/ajrenafoods-logo4.png";
+import afrotreasureslogo from "../assets/images/companylogo/afrotreasures-logo.png";
+
 export const navItems = [
   { label: "WORKS", href: "#" },
   { label: "RESUME", href: "#" },
@@ -69,7 +72,7 @@ export const platformLinks = [
 export const experienceList = [
   {
     id: 1,
-    companyLogo: "../src/assets/images/companylogo/ajrenafoods-logo4.png",
+    companyLogo: ajrenalogo,
     companyName: "Operations Director at Ajrena Foods Ltd",
     yearDuration: "Dec 2016 - Till Present",
     jobDescription:
@@ -77,7 +80,7 @@ export const experienceList = [
   },
   {
     id: 2,
-    companyLogo: "../src/assets/images/companylogo/afrotreasures-logo.png",
+    companyLogo: afrotreasureslogo,
     companyName: "Ecommerce Manager at Afrotreasures Inc",
     yearDuration: "Jan 2015 - Dec 2016",
     jobDescription:
