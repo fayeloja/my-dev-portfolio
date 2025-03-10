@@ -1,5 +1,6 @@
 import { projectdatabase } from "../constants";
 
+
 function ProjectCards() {
   return (
     <>
@@ -30,9 +31,9 @@ function ProjectCards() {
             />
             <div className="flex flex-col mt-4">
               <h2>{project.projectname}</h2>
-              <div className="flex flex-wrap">
+              <div className="flex">
                 <h3>Tech Stack: </h3>
-                <p>{project.techstack}</p>
+                <p>{project.techstack + " "}</p>
               </div>
               <p className="text-gray-600 mt-2 justify-center tracking-wider">
                 {project.shortdescription}

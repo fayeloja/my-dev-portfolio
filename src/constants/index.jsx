@@ -1,3 +1,8 @@
+import movieimg from "../assets/images/movie-app-proj.jpg";
+import saasimg from "../assets/images/saas-site.png";
+import ajrenaimg from "../assets/images/ajrena-site.png";
+import nutzyimg from "../assets/images/nutzy-site.png";
+
 export const navItems = [
   { label: "WORKS", href: "#" },
   { label: "RESUME", href: "#" },
@@ -13,10 +18,10 @@ export const projectdatabase = [
     projectcategory: "Web-Application",
     shortdescription:
       "A short description of the project highlighting key features and tech stack.",
-    imgsource: "../src/assets/images/movie-app-proj.jpg",
+    imgsource: movieimg,
     githublink: "https://github.com/fayeloja/react-movie-app",
     demolink: "https://react-movie-app-nine-xi.vercel.app/",
-    techstack: ["React.js, ", "TailwindCSS, ", "The Movie Database API "],
+    techstack: ["Reactjs", "TailwindCSS", "The Movie Database API"],
   },
   {
     id: 2,
@@ -24,10 +29,10 @@ export const projectdatabase = [
     projectcategory: "Web-Application",
     shortdescription:
       "A short description of the project highlighting key features and tech stack.",
-    imgsource: "../src/assets/images/saas-site.png",
+    imgsource: saasimg,
     githublink: "https://github.com/fayeloja/sass-landingpage",
     demolink: "https://sass-landingpage.vercel.app/",
-    techstack: [" React, ", " TailwindCSS "],
+    techstack: ["Reactjs", "TailwindCSS"],
   },
   {
     id: 3,
@@ -35,10 +40,10 @@ export const projectdatabase = [
     projectcategory: "WordPress Website",
     shortdescription:
       "A short description of the project highlighting key features and tech stack.",
-    imgsource: "../src/assets/images/ajrena-site.png",
-    githublink: "#",
+    imgsource: ajrenaimg,
+    githublink: null,
     demolink: "https://www.ajrenafoods.com/",
-    techstack: ["Wordpress, ", "Elementor, "],
+    techstack: ["Wordpress", "Elementor"],
   },
   {
     id: 4,
@@ -46,10 +51,10 @@ export const projectdatabase = [
     projectcategory: "WordPress Website",
     shortdescription:
       "A short description of the project highlighting key features and tech stack.",
-    imgsource: "../src/assets/images/nutzy-site.png",
+    imgsource: nutzyimg,
     githublink: "#",
     demolink: "https://nutzy.ng/",
-    techstack: ["Wordpress, ", "Elementor, ", "JS "],
+    techstack: ["Wordpress", "Elementor", "JS"],
   },
 ];
 
