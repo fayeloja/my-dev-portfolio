@@ -15,9 +15,11 @@ function NavBar({ title }) {
     <nav className="sticky top-0 z-50 p-4 bg-white shadow-lg">
       <div className="flex justify-between items-center  mx-auto">
         {/* Logo */}
-        <div className="flex items-center flex-shrink-0">
-          <img className="h-10 w-10 mr-5" src={logo} alt="logo" />
-          <h2>{title}</h2>
+        <div className="flex items-center flex-shrink-0 hover:text-orange-600 transition duration-300">
+          <a href="https://www.fayeloja.name.ng/">
+            <img className="h-10 w-10 mr-5" src={logo} alt="logo" />
+            <h2>{title}</h2>
+          </a>
         </div>
 
         <div className="md:hidden">
