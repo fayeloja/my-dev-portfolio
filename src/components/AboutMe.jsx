@@ -1,3 +1,5 @@
+import myPortrait from "../assets/images/my-portrait.png";
+
 function AboutMe() {
   return (
     <div className="bg-white text-gray-900 px-3 py-5 md:px-15 md:py-30">
@@ -5,7 +7,7 @@ function AboutMe() {
         <div>
           <img
             className="w-full h-auto md:h-150 md:w-700 rounded-2xl shadow-lg hover:animate-pulse hover:duration-75"
-            src="..\src\assets\images\my-portrait.png"
+            src={myPortrait}
             alt="My portrait"
           />
         </div>
