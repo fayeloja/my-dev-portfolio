@@ -22,7 +22,7 @@ function NavBar({ title }) {
           </a>
         </div>
 
-        <div className="rounded-full text-blue-100 p-3 border-2 border-gray-800 hidden md:flex">
+        <div className="rounded-full text-blue-100 p-3 border-2 border-gray-800 md:flex">
           <button className="text-gray-600" onClick={toggleMenu}>
             <Menu />
           </button>
