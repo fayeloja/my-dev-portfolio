@@ -9,7 +9,7 @@ import "./index.css";
 function App() {
   return (
     <>
-      <Navbar title="FATAI AYELOJA" />
+      <Navbar />
       <Hero />
       <AboutMe />
       <Projects />

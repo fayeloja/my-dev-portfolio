@@ -1,32 +1,50 @@
 function AboutMe() {
   return (
-    <div className="bg-white text-gray-900 text-center items-center justify-center px-5 sm:px-10 md:px-36 py-10 md:py-20">
-      <h1>About me</h1>
-      <p className="mb-5">
-        I`m a software developer and DevOps engineer with a passion for building
-        scalable systems and automating workflows. Over the years, I`ve worked
-        on a variety of projects, from full-stack web applications to cloud
-        infrastructure automation.
-      </p>
-      <h3>My expertise includes:</h3>
-      <p className="mb-5">
-        <ul>
-          <li>- Frontend Development: React.js, Tailwind CSS, JavaScript</li>
-          <li>- Backend Development: Node.js, Express.js, Python, REST APIs</li>
-          <li>- Databases: MongoDB, PostgreSQL, MySQL</li>
-          <li>- Cloud Platforms: AWS</li>
-          <li>- DevOps Tools: Docker, Kubernetes, Jenkins, Terraform</li>
-          <li>- DevOps: Docker, Kubernetes, AWS, Terraform, CI/CD pipelines</li>
-          <li>- Automation: Ansible, Jenkins, Terraform</li>
-          <li>- Monitoring: Prometheus, Grafana, ELK Stack</li>
-        </ul>
-      </p>
-      I`m always learning and exploring new technologies to improve my skills
-      and deliver better solutions.
-      <div className="mt-10">
-        <a
-          href="#"
-          className="
+    <div className="bg-white text-gray-900 px-3 py-5 md:px-15 md:py-30 overflow-scroll ">
+      <div className="flex flex-col md:flex-row gap-5">
+        <div>
+          <img
+            className="w-full h-auto md:h-150 md:w-700 rounded-2xl shadow-lg hover:animate-pulse hover:duration-75"
+            src="..\src\assets\images\my-portrait.png"
+            alt="My portrait"
+          />
+        </div>
+        <div>
+          <p className="text-orange-700 mb-5"> A little about me...</p>
+          <h2 className="mb-5">FATAI AYELOJA</h2>
+          <p>
+            I build scalable digital products with React, Tailwind CSS, Docker,
+            and AWS — while leading operations at Ajrena Foods Ltd. and driving
+            innovation in agriculture through a 15-hectare outgrower scheme and
+            a planned agritech superapp. With a background in business ops,
+            design, and cloud engineering, I combine tech, strategy, and purpose
+            to create solutions that work — in the field and on the web.
+          </p>
+          <span className="text-orange-800">My expertise includes:</span>
+          <p className="mb-5">
+            <ul>
+              <li>
+                - Frontend Development: Reactjs, Tailwind CSS, Typescript,
+                JavaScript, HTML, CSS, Bootstrap, Material UI
+              </li>
+              <li>- Backend Development: Node.js, Express.js, REST APIs</li>
+              <li>- Databases: MongoDB, PostgreSQL, MySQL</li>
+              <li>- Cloud Platforms: AWS</li>
+              <li>- DevOps Tools: Docker, Kubernetes, Jenkins, Terraform</li>
+              <li>
+                - DevOps: Docker, Kubernetes, AWS, Terraform, CI/CD pipelines
+              </li>
+              <li>- Automation: Ansible, Jenkins, Terraform</li>
+              <li>- Monitoring: Prometheus, Grafana</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      <div className="mt-10 flex justify-center items-center">
+        <div>
+          <a
+            href="#"
+            className="
                 bg-amber-400 
                 hover:bg-amber-700 
                 transition 
@@ -42,9 +60,10 @@ function AboutMe() {
                 md:text-4xl
                 
               "
-        >
-          See My Resume
-        </a>
+          >
+            See My Resume
+          </a>
+        </div>
       </div>
     </div>
   );
