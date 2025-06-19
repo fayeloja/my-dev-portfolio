@@ -22,24 +22,14 @@ function NavBar({ title }) {
           </a>
         </div>
 
-        <div className="md:hidden">
+        <div className="rounded-full text-blue-100 p-3 border-2 border-gray-800 hidden md:flex">
           <button className="text-gray-600" onClick={toggleMenu}>
             <Menu />
           </button>
         </div>
-        <ul className="hidden md:flex space-x-8">
-          {navItems.map((item) => (
-            <li key={item.id}>
-              <a href={item.href}>{item.label}</a>
-            </li>
-          ))}
-        </ul>
-        <div className="hidden md:flex text-2xl bg-amber-600 px-5 py-2 rounded-4xl shadow-lg border-2 border-gray-900 hover:bg-amber-300 hover:animate-pulse hover:animated duration-75">
-          <a href="#">Let`s Chat</a>
-        </div>
       </div>
       {isMenuOpen ? (
-        <ul className="flex-col md:hidden text-gray-900 justify-items-center">
+        <ul className="flex-col text-gray-900 justify-items-center">
           {navItems.map((item) => (
             <li key={item.id} className="py-1">
               <a href={item.href}>{item.label}</a>

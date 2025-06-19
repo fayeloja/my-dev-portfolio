@@ -10,6 +10,7 @@ export const navItems = [
   { label: "WORKS", href: "#" },
   { label: "RESUME", href: "#" },
   { label: "SERVICES", href: "#" },
+  { label: "LETS TALK", href: "#" },
 ];
 
 export const webTitle = "FATAI AYELOJA | DEVOPS ENGINEER";
