@@ -7,10 +7,10 @@ import ajrenalogo from "../assets/images/companylogo/ajrenafoods-logo4.png";
 import afrotreasureslogo from "../assets/images/companylogo/afrotreasures-logo.png";
 
 export const navItems = [
-  { label: "WORKS", href: "#" },
-  { label: "RESUME", href: "#" },
-  { label: "SERVICES", href: "#" },
-  { label: "LETS TALK", href: "#" },
+  { label: "WORKS", href: "#works" },
+  { label: "RESUME", href: "#resume" },
+  { label: "SERVICES", href: "#services" },
+  { label: "LETS TALK", href: "#letstalk" },
 ];
 
 export const webTitle = "FATAI AYELOJA | DEVOPS ENGINEER";
@@ -21,7 +21,7 @@ export const projectdatabase = [
     projectname: "Movie App",
     projectcategory: "Web-Application",
     shortdescription:
-      "A short description of the project highlighting key features and tech stack.",
+      "A dynamic movie browsing app that allows users to search, view details, and explore trending movies using The Movie Database API.",
     imgsource: movieimg,
     githublink: "https://github.com/fayeloja/react-movie-app",
     demolink: "https://react-movie-app-nine-xi.vercel.app/",
@@ -32,7 +32,7 @@ export const projectdatabase = [
     projectname: "Saas Landing Page",
     projectcategory: "Web-Application",
     shortdescription:
-      "A short description of the project highlighting key features and tech stack.",
+      "A modern and responsive landing page for a SaaS product, showcasing features, pricing, and calls to action for conversions.",
     imgsource: saasimg,
     githublink: "https://github.com/fayeloja/sass-landingpage",
     demolink: "https://sass-landingpage.vercel.app/",
@@ -43,7 +43,7 @@ export const projectdatabase = [
     projectname: "Ajrena Foods Ltd Website",
     projectcategory: "WordPress Website",
     shortdescription:
-      "A short description of the project highlighting key features and tech stack.",
+      "A corporate website designed to showcase Ajrena Foods' peanut products, values, and outgrower initiatives using WordPress.",
     imgsource: ajrenaimg,
     githublink: null,
     demolink: "https://www.ajrenafoods.com/",
@@ -54,7 +54,7 @@ export const projectdatabase = [
     projectname: "Nutzy Brand ",
     projectcategory: "WordPress Website",
     shortdescription:
-      "A short description of the project highlighting key features and tech stack.",
+      "A vibrant product-focused website for Nutzy snacks, highlighting brand story, products, and distributor onboarding.",
     imgsource: nutzyimg,
     githublink: "#",
     demolink: "https://nutzy.ng/",

@@ -27,7 +27,10 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex py-10 md:py-20 px-8 md:px-36 text-2xl md:text-4xl  justify-between bg-gray-900 text-gray-400">
+      <div
+        className="flex py-10 md:py-20 px-8 md:px-36 text-2xl md:text-4xl  justify-between bg-gray-900 text-gray-400"
+        id="letstalk"
+      >
         <div>
           <p className="sm:w-80">
             Let`s create something people actually need!{" "}

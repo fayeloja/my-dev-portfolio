@@ -2,7 +2,10 @@ import myPortrait from "../assets/images/my-portrait.png";
 
 function AboutMe() {
   return (
-    <div className="bg-white text-gray-900 px-3 py-5 md:px-15 md:py-30">
+    <div
+      className="bg-white text-gray-900 px-3 py-5 md:px-15 md:py-30"
+      id="resume"
+    >
       <div className="flex flex-col md:flex-row gap-5">
         <div>
           <img
