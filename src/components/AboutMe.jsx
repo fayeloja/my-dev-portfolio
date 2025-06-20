@@ -6,7 +6,7 @@ function AboutMe() {
       <div className="flex flex-col md:flex-row gap-5">
         <div>
           <img
-            className="w-full h-auto md:h-150 md:w-700 rounded-2xl shadow-lg hover:animate-pulse hover:duration-75"
+            className="w-full h-auto md:h-160 md:w-600 rounded-2xl shadow-lg hover:animate-pulse hover:duration-75"
             src={myPortrait}
             alt="My portrait"
           />
@@ -14,7 +14,7 @@ function AboutMe() {
         <div>
           <p className="text-orange-700 mb-5"> A little about me...</p>
           <h2 className="mb-5">FATAI AYELOJA</h2>
-          <p>
+          <p className="text-justify">
             I build scalable digital products with React, Tailwind CSS, Docker,
             and AWS — while leading operations at Ajrena Foods Ltd. and driving
             innovation in agriculture through a 15-hectare outgrower scheme and

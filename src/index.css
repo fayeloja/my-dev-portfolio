@@ -9,12 +9,15 @@ body {
 
 @layer components {
   h1 {
-    @apply text-8xl font-extrabold max-md:text-4xl;
+    font-size: 6rem; /* text-8xl */
+    font-weight: 800; /* font-extrabold */
   }
   h2 {
-    @apply text-4xl font-extrabold;
+    font-size: 2.25rem; /* text-4xl */
+    font-weight: 800; /* font-extrabold */
   }
   h3 {
-    @apply text-2xl font-extrabold;
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 800; /* font-extrabold */
   }
 }
